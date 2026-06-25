@@ -1,0 +1,64 @@
+baseURL = 'https://ian.maddaus.me'
+languageCode = 'en-us'
+title = 'Ian Maddaus'
+
+theme = 'split'
+
+[params]
+
+# Section - Visual
+[params.visual]
+
+# Image
+[params.visual.image]
+  enable = true
+  file = "images/maine.png"
+  position = "center center"
+
+# Links
+#
+# Links List #1
+[[params.links]]
+[params.links.list1]
+heading = "Connect"
+
+[[params.links.list1.link]]
+text = "Strava"
+url = "https://www.strava.com/athletes/51221916"
+new_tab = true # new tab
+
+[[params.links.list1.link]]
+text = "LinkedIn"
+url = "www.linkedin.com/in/ianmadd"
+new_tab = false # Default, open at same tab
+
+# Links List #2
+[[params.links]]
+[params.links.list2]
+heading = "Work"
+
+[[params.links.list2.link]]
+text = "GitHub (work)"
+url = "https://github.com/IanMadd"
+
+[[params.links.list2.link]]
+text = "GitHub (personal)"
+url = "https://github.com/ian-madd"
+
+# Links List #3
+#[[params.links]]
+#[params.links.list3]
+#heading = "Network"
+
+#[[params.links.list3.link]]
+#text = "Link One"
+#url = "#"
+
+#[[params.links.list3.link]]
+#text = "Link Two"
+#url = "#"
+
+#[[params.links.list3.link]]
+#text = "Link Three"
+#url = "#"
+
