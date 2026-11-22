@@ -21,29 +21,35 @@ theme = 'split'
 [[params.links]]
 [params.links.list1]
 heading = "Connect"
+icon_links = true
+
+[[params.links.list1.link]]
+text = "GitHub (work)"
+url = "https://github.com/IanMadd"
+icon = "github"
+
+[[params.links.list1.link]]
+text = "GitHub (personal)"
+url = "https://github.com/ian-madd"
+icon = "github"
+
+[[params.links.list1.link]]
+text = "LinkedIn"
+url = "https://www.linkedin.com/in/ianmadd"
+icon = "linkedin"
+new_tab = false # Default, open at same tab
 
 [[params.links.list1.link]]
 text = "Strava"
 url = "https://www.strava.com/athletes/51221916"
+icon = "strava"
 new_tab = true # new tab
 
 [[params.links.list1.link]]
-text = "LinkedIn"
-url = "www.linkedin.com/in/ianmadd"
-new_tab = false # Default, open at same tab
-
-# Links List #2
-[[params.links]]
-[params.links.list2]
-heading = "Work"
-
-[[params.links.list2.link]]
-text = "GitHub (work)"
-url = "https://github.com/IanMadd"
-
-[[params.links.list2.link]]
-text = "GitHub (personal)"
-url = "https://github.com/ian-madd"
+text = "Ride with GPS"
+url = "https://ridewithgps.com/users/2095105"
+icon = "ridewithgps"
+new_tab = true # new tab
 
 # Links List #3
 #[[params.links]]

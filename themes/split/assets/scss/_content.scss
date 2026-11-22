@@ -201,6 +201,30 @@ a {
   object-fit: cover;
 }
 
+.icon-list {
+  display: flex;
+  gap: 16px;
+  padding: 0;
+}
+
+.icon-list li {
+  display: flex;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+}
+
+.icon-link svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
 @media screen and (max-width: $bp-smallish) {
   .leftcontent {
     display: block;
